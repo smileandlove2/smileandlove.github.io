@@ -1,0 +1,275 @@
+/*Body*/
+body {
+		/*para colocar una imagen de fondo*/
+	/*/background-image:url("../imagenes/verde.png");*/
+		
+		/*para que no se repita la imagen de fondo*/
+	background-repeat: no-repeat;
+		/*para ajustar el tamaño de la imagen*/
+	background-size: 100% 50%;
+		/*para convinar el fondo con un color*/
+	background-color: #9B59B6;
+		/*El family es para el tipo de letra se coloca tres tipos de letras por si no llega a encontrar un tipo de letra el navegador. 
+		Para los tipos de letra con espacio se utiliza comillas sin encambio si el nombre no tiene eswpacio no se pone comillas*/
+	font-family: mifuente4;
+		/*size es para el tamaño de letra y se expresa en pixeles*/
+	font-size: 22px;
+		/*color es para el color de las letras: puedes colocar su valor hexadecimal, el nombre del color o valores rbg*/
+	color: #4B1D5F;
+}
+hr{
+		/*border es para la linea tamaño en pixeles tipo de letra y color*/
+	border: 5px solid #0B5345;
+		/*radius es para el terminado de las orillas el radio que tendra se expresa en pixeles*/
+	border-radius: 5px
+}
+p{
+		/*text-aling se utiliza para alinear el texto por default estan alineados a la izquierda*/
+	text-align: justify;
+	font-family: mifuente4;
+	font-size: 20px;
+	color: #17202A;
+		/*Background-color: #17202A;*/
+}
+table,td,tr{
+		/*el borde de las lineas de la tabla*/
+	border: 3px solid;
+		/*color de las lineas del borde*/
+	border-color: #196F3D;
+		/*color de las lineas del borde*/
+	text-align: center;
+	background-color: #884EA0;	
+}
+th{
+	background-color: #FDFEFE;
+}
+ul{
+		/*indica el tipo de viñeta, en este caso un circulo, puede ser tambien un cuadrado*/
+	list-style-type: circle; 
+		/*se indica la posicion*/
+	list-style-position: inside;
+}
+ol{
+		/*algunos de los valores de list-style-type son: lower-alpha; lower-roman; upper-roman; 
+		a,b,c,d,e,f   i,ii,iii,iv  A,B,C,D,E,F,  I,II,III,IV*/
+	list-style-type: upper-roman;
+	list-style-position: inside;	
+}
+.pie{
+	font-family: mifuente2;
+	font-size: 15px;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+}
+.table-text{
+	font-family: mifuente3;
+	font-size: 20px;
+	color: #0A3817;	
+}
+.text{
+	font-family: mifuente;
+	font-size: 80px;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+}
+.Marquesina{
+	width: 450px;
+	height: 450px;
+	border: 5px solid #000000;
+}
+.boton{
+	width:125px;
+	height:125px;
+	border-radius:30%;
+}
+.Img-table{
+	width: 250px;
+	height: 250px;
+}
+.Img{
+	width: 500px;
+	height: 350px;
+	border: 10px double #000000;
+	border-radius:10%;
+}
+@font-face{
+	font-family: mifuente;
+	src: url("../fuentes/Be My Valentine.ttf");
+}
+@font-face{
+	font-family: mifuente2;
+	src: url("../fuentes/Unicorn Couple.ttf");
+}
+@font-face{
+	font-family: mifuente3;
+	src: url("../fuentes/NewakeFont-Demo.otf");
+}
+@font-face{
+	font-family: mifuente4;
+	src: url("../fuentes/Homemade Sausage.ttf");
+}
+.fuentegoogle{
+font-family: 'Acme', sans-serif;
+}
+
+/*uso de Div´s*/
+/*Div o caja para el encabezado*/
+
+*{
+	margin: 0px;
+	padding: 0px	
+}
+div#top{
+	width: 100%;
+	height: 150px;
+	background-image: linear-gradient(#9B59B6,#1E8449);
+	/*background-color: #1E8449;*/
+}
+div#principal{
+	margin: auto;
+	margin-top: 10px;
+	width: 98%;
+	height: 750px;
+	/*background-color: #D7BDE2;*/	
+	background-image: radial-gradient(#D7BDE2,#B39DDB);
+}
+div#piep{
+	margin: auto;
+	margin-top: 10px;
+	width: 100%;
+	height: 70px;
+	/*background-color: #B39DDB;*/
+	background-image: linear-gradient(#9B59B6,#1E8449);	
+}
+div#principal2{
+	margin: auto;
+	margin-top: 10px;
+	width: 98%;
+	height: 1000px;
+	/*background-color: #D7BDE2;*/	
+	background-image: radial-gradient(#D7BDE2,#B39DDB);	
+}
+div#principal3{
+	margin: auto;
+	margin-top: 10px;
+	width: 98%;
+	height: 2100px;
+	/*background-color: #D7BDE2;*/	
+	background-image: radial-gradient(#D7BDE2,#B39DDB);	
+}
+div#principal4{
+	margin: auto;
+	margin-top: 10px;
+	width: 98%;
+	height: 1200px;
+	/*background-color: #D7BDE2;*/	
+	background-image: radial-gradient(#D7BDE2,#B39DDB);	
+}
+div#principal5{
+	margin: auto;
+	margin-top: 10px;
+	width: 98%;
+	height: 1350px;
+	/*background-color: #D7BDE2;*/	
+	background-image: radial-gradient(#D7BDE2,#B39DDB);	
+}
+.caja{
+	height: 400px;
+	width: 250px;
+	background: #C39BD3; 
+	border: 1px solid #7D3C98;
+	margin: 5px; 
+	color: black;
+	text-align: center;
+	/*sirve para que aparescan horizontal y no vertical*/
+	display: inline-block;
+}
+.caja:hover{
+	/*para la sombre y color de la sombra*/
+	box-shadow: 0 0 10px violet;
+	transform: scale(1.3);
+}
+.caja-texto{
+	padding-top: 2px;
+	font-size: 20px;
+	color: #9B59B6;
+	font-weight: bold;
+}
+.texto-adicional{
+	padding: 5px;
+	font-size: 15px;
+}
+.carrusel{
+	width: 600px;
+	margin: auto;
+	box-sizing: border-box;
+}
+.conteCarrusel{
+	width: 100%;
+	height: 700px;
+	/*Sirve para que los elentos que sobresalgan de la caja no se vean, si no que se oculten*/
+	overflow: hidden;
+	box-sizing: border-box;	
+}
+.itemCarrusel{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;	
+}
+.itemCarruselTarjeta{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;	
+}
+.itemCarruselArrows{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.itemCarruselArrows >i :hover{
+	cursor: pointer;
+}
+.conteCarruselControl{
+	width: 100%;
+	display: flez;
+	justify-content: space-between;
+}
+.conteCarruselControl >a{
+	text-decoration: none;
+	font-size: 32px;
+	color: grey;
+}
+.itemCarruselArrows >a >i{
+	color: white;
+}
+.Menu{
+	width:150px;
+	height:125px;
+	display: inline-block;
+}
+.Menu:hover{
+	box-shadow: 0 0 10px purple;
+	border-radius: 3px;
+	color: black;
+	padding: 5px;
+	transform: scale(1.3);
+	border-radius:30%;
+}
+.texproducto{
+	width: 600px;
+	background-image: linear-gradient(#8E44AD,#1E8449);
+	font-size: 20px;
+	color: black;	
+}
